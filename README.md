@@ -24,6 +24,7 @@ Python
 Pandas, NumPy
 Matplotlib, Seaborn
 Google Colab
+
 🔍 Approach
 
 Before starting the analysis, key questions were framed around:
@@ -40,25 +41,32 @@ Data Cleaning & Preprocessing
 Feature Engineering (pnl_ratio, pnl_flag, position_type)
 Exploratory Data Analysis (EDA)
 Visualization & Insight Extraction
+
 📈 Key Insights
+
 Fear-driven markets are the most profitable, both in terms of total PnL and efficiency
 Greed phases lead to poor performance, with lower returns and even negative efficiency
 Long positions consistently outperform Short positions, indicating a strong directional bias
 Short trades are highly sentiment-dependent, failing significantly during bullish conditions
 Traders exhibit reactive behavior, often following sentiment instead of predicting it
 Higher capital allocation during Fear suggests a buy-the-dip strategy
+
 ⚖️ Trading Insights & Strategy Implications
+
 Focus on trading during Fear phases where opportunities are strongest
 Avoid or limit exposure during Greed phases
 Prefer Long positions for consistent performance
 Use Short positions selectively, aligned with sentiment
 Prioritize risk management over win rate
+
 📁 Project Structure
 .
 ├── notebooks/
 │   └── Market_Sentiment_&_Trading_Performance.ipynb
 ├── README.md
+
 🚀 How to Run
+
 Open the notebook in Google Colab
 Ensure dataset access (Drive link provided above)
 Run all cells
