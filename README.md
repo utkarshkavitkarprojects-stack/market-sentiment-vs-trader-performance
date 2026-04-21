@@ -1,77 +1,103 @@
 # 📊  Market Sentiment vs Trader Performance
-🧠 Overview
 
-This project explores how market sentiment influences trader performance in the crypto market.
+## 🧠 Overview
 
-The goal is to move beyond surface-level analysis and understand:
+This project explores how **market sentiment influences trader performance** in the crypto market.
 
-How traders behave under different market conditions (Fear, Greed, Neutral)
-Whether sentiment-driven behavior impacts profitability
-What patterns can be used to improve trading decisions
-🎯 Objective
+The goal is to understand:
+- How traders behave under different market conditions (Fear, Greed, Neutral)
+- Whether sentiment-driven behavior impacts profitability
+- What patterns can be used to improve trading decisions
 
-The objective of this analysis is to understand the relationship between market sentiment and trader performance, uncover hidden behavioral patterns, and derive insights that can support smarter trading strategies.
+---
 
-📂 Dataset
+## 🎯 Objective
+
+This project aims to analyze how market sentiment impacts trader performance, uncover hidden patterns in trading behavior, and generate insights that can support better trading decisions.
+
+---
+
+## 📂 Dataset
 
 Due to size constraints, the dataset is hosted externally.
 
-🔗 Dataset Link:
-https://drive.google.com/file/d/1gcNLnlbLGcVHzmEwkoCjgN0m7oGvNZFQ/view?usp=sharing](https://drive.google.com/drive/folders/1wopsO7l39s_5OmF2qazioTnt_PRXx13f?usp=drive_link
+**Dataset Link:**  
+https://drive.google.com/drive/folders/1wopsO7l39s_5OmF2qazioTnt_PRXx13f?usp=drive_link
 
-🛠️ Tech Stack
-Python
-Pandas, NumPy
-Matplotlib, Seaborn
-Google Colab
+---
 
-🔍 Approach
+## 🛠️ Tech Stack
 
-Before starting the analysis, key questions were framed around:
+- Python  
+- Pandas, NumPy  
+- Matplotlib, Seaborn  
+- Google Colab  
 
-Impact of market sentiment on profitability
-Role of trade size in gains/losses
-Distribution of winning vs losing trades
-Performance of Long vs Short positions
-Combined effect of sentiment, position, and capital
+---
 
-The analysis was then carried out through:
+## 🔍 Approach
 
-Data Cleaning & Preprocessing
-Feature Engineering (pnl_ratio, pnl_flag, position_type)
-Exploratory Data Analysis (EDA)
-Visualization & Insight Extraction
+The analysis was guided by key questions such as:
+- Does market sentiment impact profitability?
+- Does higher trade size lead to higher returns or higher risk?
+- How are winning and losing trades distributed across sentiment?
+- Which position type (Long/Short) performs better?
+- How do sentiment, position type, and capital interact together?
 
-📈 Key Insights
+Steps followed:
+- Data Cleaning & Preprocessing  
+- Feature Engineering (`pnl_ratio`, `pnl_flag`, `position_type`)  
+- Exploratory Data Analysis (EDA)  
+- Visualization & Insight Extraction  
 
-Fear-driven markets are the most profitable, both in terms of total PnL and efficiency
-Greed phases lead to poor performance, with lower returns and even negative efficiency
-Long positions consistently outperform Short positions, indicating a strong directional bias
-Short trades are highly sentiment-dependent, failing significantly during bullish conditions
-Traders exhibit reactive behavior, often following sentiment instead of predicting it
-Higher capital allocation during Fear suggests a buy-the-dip strategy
+---
 
-⚖️ Trading Insights & Strategy Implications
+## 📈 Key Insights
 
-Focus on trading during Fear phases where opportunities are strongest
-Avoid or limit exposure during Greed phases
-Prefer Long positions for consistent performance
-Use Short positions selectively, aligned with sentiment
-Prioritize risk management over win rate
+- Fear-driven markets show the highest profitability and trading efficiency  
+- Greed phases lead to reduced performance and even negative returns  
+- Long positions consistently outperform Short positions  
+- Short trades are highly dependent on sentiment and fail during bullish conditions  
+- Traders tend to follow sentiment rather than predict it  
+- Higher capital allocation during Fear indicates a buy-the-dip behavior  
 
-📁 Project Structure
-.
+---
+
+## ⚖️ Trading Insights & Strategy Implications
+
+- Focus on trading during Fear phases  
+- Avoid or reduce exposure during Greed phases  
+- Prefer Long positions for consistent performance  
+- Use Short positions selectively with proper timing  
+- Focus on risk management instead of just win rate  
+
+---
+
+## 📁 Project Structure
+
 ├── notebooks/
-│   └── Market_Sentiment_&_Trading_Performance.ipynb
+│ └── Market_Sentiment_&_Trading_Performance.ipynb
 ├── README.md
 
-🚀 How to Run
+---
 
-Open the notebook in Google Colab
-Ensure dataset access (Drive link provided above)
-Run all cells
-💡 Conclusion
+## 🚀 How to Run
 
-This project demonstrates that trader performance is strongly influenced by market sentiment and behavioral biases.
+1. Open the notebook in Google Colab  
+2. Ensure dataset access using the link provided above  
+3. Run all cells  
 
-By incorporating sentiment-aware strategies and disciplined decision-making, traders can significantly improve performance and reduce risk.
+---
+
+## 💡 Conclusion
+
+The analysis shows that trader performance is significantly influenced by market sentiment and behavioral biases.
+
+Incorporating sentiment-aware strategies and disciplined decision-making can help improve profitability and reduce risk.
+
+---
+
+## 🔗 Author
+
+**Utkarsh Kavitkar**  
+Data Scientist | Machine Learning Enthusiast
