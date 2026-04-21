@@ -76,9 +76,7 @@ Steps followed:
 ## 📁 Project Structure
 
 ├── notebooks/
-
 │ └── Market_Sentiment_&_Trading_Performance.ipynb
-
 ├── README.md
 
 ---
